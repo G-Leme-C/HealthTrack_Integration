@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Health Track - Início</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/ht_styles.css">
+        <link rel="stylesheet" href="css/geometry.css">
+        <link rel="stylesheet" href="open-iconic/font/css/open-iconic-bootstrap.css">
+        <link rel="stylesheet" href="css/material_input.css">
+        <link rel="stylesheet" href="css/material_select.css">
+    </head>
+
+    <body class="nav-purple-ht">
+        <div class="container-fluid mt-5">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-sm-12 col-md-4 mt-3 text-center">
+                    <img src="img/running_white.png" width="60">
+                    <h2 class="text-white mt-3">Crie uma conta</h2>
+                    <br>
+                    <div class="dot mr-5">
+                        <div class="dot-fill"></div>
+                        <div class="rectangle-white mt-2"></div>
+                    </div>
+                    <div class="dot ml-5 mr-5">
+                        <div class="dot-fill"></div>
+                    </div>
+                    <div class="dot ml-5">
+                        <div class="dot-fill-white"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4"></div>
+                <div class="col-sm-12 col-md-4">
+                    <section>
+                        <form>
+                            <div class="input-container">
+                                <input id="altura" type="text" required />
+                                <label class="label" for="altura">Altura em centimetros (opcional):</label>
+                            </div>
+                            <br>
+                            <div class="input-container">
+                                <input id="peso" type="text" required />
+                                <label class="label" for="peso">Peso atual em kg (opcional):</label>
+                            </div>
+                            <br>
+                            <div class="select-container">
+                                <select id="sexo" required>
+                                    <option></option>
+                                    <option value="Masculino">Masculino</option>
+                                    <option value="Feminino">Feminino</option>
+                                </select>
+                                <label class="label" for="sexo">Sexo:</label>
+                            </div>
+                            <br>
+                            <div class="input-container mt-3">
+                                <input id="dataNascimento" type="date" />
+                                <label class="label" for="dataNascimento">Data de nascimento:</label>
+                            </div>
+                            <br>
+                            <div class="text-center">
+                                <a class="btn btn-white-ht btn-lg-ht" href="inicio.html">Concluir</a>
+                            </div>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

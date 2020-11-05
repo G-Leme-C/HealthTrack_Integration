@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Health Track - Alimentação</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/ht_styles.css">
+        <link rel="stylesheet" href="open-iconic/font/css/open-iconic-bootstrap.css">
+        <link rel="stylesheet" href="css/Chart.min.css">    
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg nav-purple-ht sticky-top">
+            <button class="navbar-toggler border-white" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu menu-color"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="img/running_white.png" class="d-inline-block align-top" width="50">
+            </a>
+            
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="inicio.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="alimentacao.html">Alimentação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="exercicios.html">Exercícios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="pesagem.html">Peso</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="perfil.html">Perfil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Sair</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <section class="container-fluid">
+            <h4 class="text-center mt-2 mb-4">Atividades físicas</h4>    
+            <div class="row" style="margin-bottom: 150px;">
+                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                    <section class="mb-3">
+                        <button class="btn btn-purple-ht btn-block" type="button" data-toggle="collapse" data-target="#collapseCafe" aria-expanded="true" aria-controls="collapseCafe">
+                            Exercícios aeróbicos
+                        </button>
+                        <div class="collapse show" id="collapseCafe">
+                            <div class="card card-body">
+                                <ol class="list-group">
+                                    <li class="list-group-item d-flex justify-content-between">
+                                        Ciclismo
+                                        <span class="">40min</span>
+                                        <span class="">200kCal</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between">
+                                        Caminhada
+                                        <span class="">20min</span>
+                                        <span class="">100kCal</span>
+                                    </li>
+                                </ol>
+                                <div class="text-center">
+                                    <button class="btn btn-sm mt-2 border-purple w-05x">
+                                        <span class="oi oi-plus"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="mb-3">
+                        <button class="btn btn-purple-ht btn-block" type="button" data-toggle="collapse" data-target="#collapseAlmoco" aria-expanded="true" aria-controls="collapseAlmoco">
+                            Exercícios anaeróbicos
+                        </button>
+                        <div class="collapse show" id="collapseAlmoco">
+                            <div class="card card-body">
+                                <ol class="list-group">
+                                    <li class="list-group-item d-flex justify-content-between">Musculação 
+                                        <span>1h</span>
+                                        <span>150kCal</span>
+                                    </li>
+                                </ol>
+                                <div class="text-center">
+                                    <button class="btn btn-sm mt-2 border-purple w-05x">
+                                        <span class="oi oi-plus"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            </div>
+                    </section>
+                </div>
+
+                <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                    <div class="card mb-2 p-3" >
+                        <div class="font-size-large">Exercícios</div>
+                        <div class="chart-container">
+                            <canvas id="graficoExercicios" height="170px">
+    
+                            </canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="sticky-footer" class="py-2 nav-purple-ht fixed-bottom">
+            <div class="container d-flex justify-content-around">
+                <a class="btn text-white" href="inicio.html"> <img src="img/home_white.png" class="icon-size-2" alt="icone de casa"></a>
+                <a class="btn text-white " href="alimentacao.html"><img src="img/fork_white.png" class="icon-size-2" alt="icone com um garfo e uma colher cruzados"></a>
+                <a class="btn text-white btn-ht-selected" href="exercicios.html"> <img src="img/running_purple.png" class="icon-size-2" alt="icone health track (uma pessoa correndo)"></a>
+                <a class="btn text-white" href="pesagem.html"> <img src="img/weight_white.png" class="icon-size-2" alt="icone de uma balança para pesagem"></a>
+                <a class="btn text-white" href="perfil.html"> <img src="img/user_white.png" class="icon-size-2" alt="icone de uma silhueta de uma pessoa"></a>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="js/jquery.slim.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/moment.js"></script>
+        <script type="text/javascript" src="js/Chart.min.js"></script>
+        <script type="text/javascript" src="js/htChartsExercicios.js"></script>
+    </body>
+</html>

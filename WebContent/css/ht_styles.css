@@ -1,0 +1,89 @@
+* 
+{
+    color:#683696;
+}
+
+.body-bg-ht {
+    background-image: url(../img/race.png);
+}
+
+.btn-purple-ht {
+    background-color: #683696;
+    color: whitesmoke;
+    border-color: #683696;
+}
+
+.btn-white-ht {
+    background-color: white;
+    color: #683696;
+    border-color: #683696;
+}
+
+.btn-lg-ht {
+    width: 250px;
+}
+
+.btn-ht-selected {
+    background-color: white;
+}
+
+.nav-purple-ht {
+    background-color: #683696;
+    color: whitesmoke;
+}
+
+.text-white {
+    color: whitesmoke;
+}
+
+.menu-color {
+    color: whitesmoke;
+}
+
+.border-white {
+    border-color: whitesmoke;
+}
+
+.font-size-large {
+    font-size: 1.3rem;
+}
+
+.font-size-medium {
+    font-size: 1.1rem;
+}
+
+.font-light-ht {
+    font-weight: 350;
+}
+
+.font-dark-ht {
+    font-weight: 600;
+}
+
+.icon-size-1-3 {
+    width: 1.3rem;
+}
+
+.icon-size-1-5 {
+    width: 1.5rem;
+}
+
+.icon-size-2 {
+    width: 2rem;
+}
+
+.icon-size-3 {
+    width: 3rem;
+}
+
+.icon-size-6 {
+    width: 6rem;
+}
+
+.border-purple {
+    border-color: #683696;
+}
+
+.w-05x {
+    width: 50%;
+}

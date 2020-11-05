@@ -1,0 +1,51 @@
+/* Estrutura */
+.select-container {
+    position: relative;
+}
+
+select {
+    border: 0;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    transition: .2s ease-in-out;
+    background-color: #683696;
+    color: white;
+}
+
+label {
+    top: 0;
+    left: 0; right: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-size: 1rem;
+    cursor: text;
+    transition: .2s ease-in-out;
+    box-sizing: border-box;
+}
+
+select,
+label {
+    width: 100%;
+    height: 3rem;
+    font-size: 1rem;
+}
+
+/* Interation */
+select:valid,
+select:focus {
+  border-bottom: 2px solid #fff;  
+}
+
+select:valid + label,
+select:focus + label {
+  color: #fff;
+  font-size: .8rem;
+  top: -30px;
+  pointer-events: none;
+}
+
+option {
+    color: white;
+}

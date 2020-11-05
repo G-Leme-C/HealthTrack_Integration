@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Health Track - Alimentação</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/ht_styles.css">
+        <link rel="stylesheet" href="open-iconic/font/css/open-iconic-bootstrap.css">
+        <link rel="stylesheet" href="css/Chart.min.css">    
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg nav-purple-ht sticky-top">
+            <button class="navbar-toggler border-white" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu menu-color"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="img/running_white.png" class="d-inline-block align-top" width="50">
+            </a>
+            
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="inicio.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="alimentacao.html">Alimentação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="exercicios.html">Exercícios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="pesagem.html">Peso</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="perfil.html">Perfil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Sair</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="container-fluid">
+            <div class="row mb-5">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h4 class="text-center mt-1">Perfil</h5>
+                    <div class="card">
+                        <div class="mt-2">
+                            <img src="img/user_purple.png" alt="imagem do usuário" class="icon-size-6 p-2 m-1 float-left" >
+                            <a class="btn float-right" ><img src="img/pencil-edit-button_purple.png" alt="imagem do usuário" class="icon-size-2"></a>
+                            <p class="font-dark-ht">Nome: <span class="font-light-ht">Gabriel Leme Calsada</span></p>
+                            <p class="font-dark-ht">Idade: <span class="font-light-ht">23</span></p>
+                            <p class="font-dark-ht">Sexo: <span class="font-light-ht">Masculino</span></p>
+                        </div>
+                        <div class="m-2 card">
+                            <div class="m-3">
+                                <p class="font-dark-ht">Data de nascimento: <span class="font-light-ht">04/08/1997</span></p>
+                                <p class="font-dark-ht">Altura: <span class="font-light-ht">185cm</span></p>
+                                <p class="font-dark-ht">Peso atual: <span class="font-light-ht">85kg</span></p>
+                                <p class="font-dark-ht">Meta: <span class="font-light-ht">80kg</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h4 class="text-center mt-1">Progresso</h4>
+                    <div class="card mb-5 m-2 p-1 pb-3">
+                        <div class="chart-container">
+                            <canvas id="graficoProgresso" height="230px">
+                            </canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h4 class="text-center mt-1">Consumo calórico x Gasto</h4>
+                    <div class="card mb-5 m-2 p-1 pb-3">
+                        <div class="card m-1">
+                            <div class="m-2">
+                                <p class="font-dark-ht text-center">Consumo entre 05/05/2020 a 12/05/2020</p>
+                                <ul class="list-group">
+                                    <li class="list-group-item d-flex justify-content-between">Gasto calórico basal: <span>2350kCal / Dia</span> </li>
+                                    <li class="list-group-item d-flex justify-content-between">Gasto com exercícios: <span>500kCal / Dia</span></li>
+                                    <li class="list-group-item d-flex justify-content-between">Ingestão: <span>3000kCal / Dia</span></li>
+                                    <li class="list-group-item d-flex justify-content-between">Saldo final: <span>+150kCal / Dia</span></li>
+                                </ul>
+                                <p class="font-dark-ht m-2">
+                                    Um gasto calórico positivo geralmente resulta em ganho de massa (aumento de peso).
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <footer id="sticky-footer" class="py-2 nav-purple-ht fixed-bottom">
+            <div class="container d-flex justify-content-around">
+                <a class="btn text-white" href="inicio.html"> <img src="img/home_white.png" class="icon-size-2" alt="icone de casa"></a>
+                <a class="btn text-white " href="alimentacao.html"><img src="img/fork_white.png" class="icon-size-2" alt="icone com um garfo e uma colher cruzados"></a>
+                <a class="btn text-white " href="exercicios.html"> <img src="img/running_white.png" class="icon-size-2" alt="icone health track (uma pessoa correndo)"></a>
+                <a class="btn text-white " href="pesagem.html"> <img src="img/weight_white.png" class="icon-size-2" alt="icone de uma balança para pesagem"></a>
+                <a class="btn text-white btn-ht-selected" href="perfil.html"> <img src="img/user_purple.png" class="icon-size-2" alt="icone de uma silhueta de uma pessoa"></a>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="js/jquery.slim.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/moment.js"></script>
+        <script type="text/javascript" src="js/Chart.min.js"></script>
+        <script type="text/javascript" src="js/htChartsProgresso.js"></script>
+    </body>
+</html>

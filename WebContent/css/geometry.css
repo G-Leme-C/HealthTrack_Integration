@@ -1,0 +1,33 @@
+.dot {
+    height: 21px;
+    width: 21px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-fill {
+    height: 15px;
+    width: 15px;
+    background-color: #683696;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-fill-white {
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.rectangle-white {
+    height: 4px;
+    width: 230px;
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+}
+
