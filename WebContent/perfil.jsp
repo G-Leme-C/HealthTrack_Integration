@@ -1,3 +1,4 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"  pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -10,37 +11,7 @@
         <link rel="stylesheet" href="css/Chart.min.css">    
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg nav-purple-ht sticky-top">
-            <button class="navbar-toggler border-white" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="oi oi-menu menu-color"></span>
-            </button>
-            <a class="navbar-brand" href="#">
-                <img src="img/running_white.png" class="d-inline-block align-top" width="50">
-            </a>
-            
-            <div class="collapse navbar-collapse" id="navbarContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link text-white" href="inicio.html">Início</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="alimentacao.html">Alimentação</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="exercicios.html">Exercícios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="pesagem.html">Peso</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="perfil.html">Perfil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="index.html">Sair</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+       	<%@include file="menu.jsp" %>    
 
         <section class="container-fluid">
             <div class="row mb-5">
@@ -97,16 +68,8 @@
             </div>
         </section>
 
-        <footer id="sticky-footer" class="py-2 nav-purple-ht fixed-bottom">
-            <div class="container d-flex justify-content-around">
-                <a class="btn text-white" href="inicio.html"> <img src="img/home_white.png" class="icon-size-2" alt="icone de casa"></a>
-                <a class="btn text-white " href="alimentacao.html"><img src="img/fork_white.png" class="icon-size-2" alt="icone com um garfo e uma colher cruzados"></a>
-                <a class="btn text-white " href="exercicios.html"> <img src="img/running_white.png" class="icon-size-2" alt="icone health track (uma pessoa correndo)"></a>
-                <a class="btn text-white " href="pesagem.html"> <img src="img/weight_white.png" class="icon-size-2" alt="icone de uma balança para pesagem"></a>
-                <a class="btn text-white btn-ht-selected" href="perfil.html"> <img src="img/user_purple.png" class="icon-size-2" alt="icone de uma silhueta de uma pessoa"></a>
-            </div>
-        </footer>
-
+		<%@include file="footer.jsp" %>
+		
         <script type="text/javascript" src="js/jquery.slim.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/moment.js"></script>

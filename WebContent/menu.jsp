@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"  pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <nav class="navbar navbar-expand-lg nav-purple-ht sticky-top">
     <button class="navbar-toggler border-white" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,19 +11,19 @@
     <div class="collapse navbar-collapse" id="navbarContent">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-link text-white" href="inicio.html">Início</a>
+                <a class="nav-link text-white" href="inicio.jsp">Início</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="alimentacao.html">Alimentação</a>
+                <a class="nav-link text-white" href="alimentacao.jsp">Alimentação</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="exercicios.html">Exercícios</a>
+                <a class="nav-link text-white" href="exercicios.jsp">Exercícios</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="pesagem.html">Peso</a>
+                <a class="nav-link text-white" href="pesagem.jsp">Peso</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="perfil.html">Perfil</a>
+                <a class="nav-link text-white" href="perfil.jsp">Perfil</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link text-white" href="index.html">Sair</a>
