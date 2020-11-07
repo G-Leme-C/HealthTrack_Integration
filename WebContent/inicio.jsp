@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Health Track - InÃ­cio</title>
+    <title>Health Track - Início</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -19,7 +19,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center">
                 <div class="card pl-3 pr-3 pb-2 pt-1 mb-2" >
-                    <div class="font-size-large">AlimentaÃ§Ã£o</div>
+                    <div class="font-size-large">Alimentação</div>
                     <div class="chart-container">
                         <canvas id="graficoAlimentacao" height="130px">
                         </canvas>
@@ -34,7 +34,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center">
                 <div class="card mb-2 p-3" >
-                    <div class="font-size-large">ExercÃ­cios</div>
+                    <div class="font-size-large">Exercícios</div>
                     <div class="chart-container">
                         <canvas id="graficoExercicios" height="250px">
 
@@ -43,7 +43,7 @@
                 </div>
                 <div class="card mb-2 p-3 d-block">
                     <img src="img/heartbeat_purple.png" class="icon-size-2">
-                    <span class="ml-2">MÃ©dia de 102 BPM hoje</span>
+                    <span class="ml-2">Média de 102 BPM hoje</span>
                 </div>
                 <div class="card mb-2 p-3 d-block" style="display: block;">
                     <img src="img/running_purple.png" class="icon-size-2">

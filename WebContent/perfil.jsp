@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Health Track - Alimenta√ß√£o</title>
+        <title>Health Track - Alimenta√ß„o</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -45,19 +45,19 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
-                    <h4 class="text-center mt-1">Consumo cal√≥rico x Gasto</h4>
+                    <h4 class="text-center mt-1">Consumo calÛrico x Gasto</h4>
                     <div class="card mb-5 m-2 p-1 pb-3">
                         <div class="card m-1">
                             <div class="m-2">
                                 <p class="font-dark-ht text-center">Consumo entre 05/05/2020 a 12/05/2020</p>
                                 <ul class="list-group">
-                                    <li class="list-group-item d-flex justify-content-between">Gasto cal√≥rico basal: <span>2350kCal / Dia</span> </li>
-                                    <li class="list-group-item d-flex justify-content-between">Gasto com exerc√≠cios: <span>500kCal / Dia</span></li>
-                                    <li class="list-group-item d-flex justify-content-between">Ingest√£o: <span>3000kCal / Dia</span></li>
+                                    <li class="list-group-item d-flex justify-content-between">Gasto calÛrico basal: <span>2350kCal / Dia</span> </li>
+                                    <li class="list-group-item d-flex justify-content-between">Gasto com exercÌcios: <span>500kCal / Dia</span></li>
+                                    <li class="list-group-item d-flex justify-content-between">Ingest„o: <span>3000kCal / Dia</span></li>
                                     <li class="list-group-item d-flex justify-content-between">Saldo final: <span>+150kCal / Dia</span></li>
                                 </ul>
                                 <p class="font-dark-ht m-2">
-                                    Um gasto cal√≥rico positivo geralmente resulta em ganho de massa (aumento de peso).
+                                    Um gasto calÛrico positivo geralmente resulta em ganho de massa (aumento de peso).
                                 </p>
                             </div>
                             
