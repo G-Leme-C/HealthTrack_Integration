@@ -36,7 +36,8 @@
                                     </li>
                                 </ol>
                                 <div class="text-center">
-                                    <button class="btn btn-sm mt-2 border-purple w-05x">
+                                    <button class="btn btn-sm mt-2 border-purple w-05x" data-toggle="modal"
+                                    data-target="#modalFormExercicios">
                                         <span class="oi oi-plus"></span>
                                     </button>
                                 </div>
@@ -56,7 +57,8 @@
                                     </li>
                                 </ol>
                                 <div class="text-center">
-                                    <button class="btn btn-sm mt-2 border-purple w-05x">
+                                    <button class="btn btn-sm mt-2 border-purple w-05x" data-toggle="modal"
+                                        data-target="#modalFormExercicios">
                                         <span class="oi oi-plus"></span>
                                     </button>
                                 </div>
@@ -78,6 +80,43 @@
             </div>
         </section>
 
+        <div id="modalFormExercicios" class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Adicionar Atividade Física</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="selectAtividadeFisica">Atividade realizada:</label>
+                            <select class="form-control" name="selectAtividadeFisica">
+                                <option>Corrida</option>
+                                <option>Caminhada</option>
+                                <option>Ciclismo</option>
+                                <option>Funcional</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="minutos">Tempo (em minutos):</label>
+                            <input class="form-control" type="number" name="minutos" id="minutosExercicio">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button type="submit" class="btn btn-purple-ht btn-lg btn-lg-ht text-white">Salvar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Sair</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
 		<%@include file="footer.jsp" %>
         
         <script type="text/javascript" src="js/jquery.slim.min.js"></script>
@@ -85,5 +124,12 @@
         <script type="text/javascript" src="js/moment.js"></script>
         <script type="text/javascript" src="js/Chart.min.js"></script>
         <script type="text/javascript" src="js/htChartsExercicios.js"></script>
+        <script type="text/javascript">
+            $('#modalFormExercicios').on('shown.bs.modal', function () {
+                $('#myInput').trigger('focus')
+            })
+
+
+        </script>
     </body>
 </html>
