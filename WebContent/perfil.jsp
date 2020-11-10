@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Health Track - Alimentaç�o</title>
+        <title>Health Track - Perfil</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -16,7 +16,7 @@
         <section class="container-fluid">
             <div class="row mb-5">
                 <div class="col-lg-4 col-md-12 col-sm-12">
-                    <h4 class="text-center mt-1">Perfil</h5>
+                    <h4 class="text-center mt-1">Perfil</h4>
                     <div class="card">
                         <div class="mt-2">
                             <img src="img/user_purple.png" alt="imagem do usuário" class="icon-size-6 p-2 m-1 float-left" >
